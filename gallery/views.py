@@ -7,3 +7,7 @@ def index(request):
 
 def image(request):
     return render(request, "gallery/image.html")
+
+
+def search(request):
+    return render(request, "gallery/search.html")
